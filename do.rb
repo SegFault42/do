@@ -5,7 +5,7 @@ module UnitTester
     ARGF.each do |line|
       put line if line =~ /git/
     end
-    system "echo",  "\e[32mI am doing the moulitest whit echo"
+    system "echo",  "\e[32mI am doing the moulitest whit echo[0m"
 
     # get the moulitest unitest
   end
